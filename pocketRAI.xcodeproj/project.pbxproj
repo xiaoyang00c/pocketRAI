@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1FB0CFF1801493700B31024 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1FB0CFE1801493700B31024 /* UIKit.framework */; };
+		A1FB0D011801493700B31024 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1FB0D001801493700B31024 /* Foundation.framework */; };
+		A1FB0D031801493700B31024 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1FB0D021801493700B31024 /* CoreGraphics.framework */; };
+		A1FB0D051801493700B31024 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1FB0D041801493700B31024 /* CoreData.framework */; };
+		A1FB0D0B1801493700B31024 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A1FB0D091801493700B31024 /* InfoPlist.strings */; };
+		A1FB0D0D1801493700B31024 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1FB0D0C1801493700B31024 /* main.m */; };
+		A1FB0D111801493700B31024 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1FB0D101801493700B31024 /* AppDelegate.m */; };
+		A1FB0D131801493700B31024 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A1FB0D121801493700B31024 /* Default.png */; };
+		A1FB0D151801493700B31024 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A1FB0D141801493700B31024 /* Default@2x.png */; };
+		A1FB0D171801493700B31024 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A1FB0D161801493700B31024 /* Default-568h@2x.png */; };
+		A1FB0D1A1801493700B31024 /* pocketRAI.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A1FB0D181801493700B31024 /* pocketRAI.xcdatamodeld */; };
+		A1FB0D221801493700B31024 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1FB0D211801493700B31024 /* SenTestingKit.framework */; };
+		A1FB0D231801493700B31024 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1FB0CFE1801493700B31024 /* UIKit.framework */; };
+		A1FB0D241801493700B31024 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1FB0D001801493700B31024 /* Foundation.framework */; };
+		A1FB0D251801493700B31024 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1FB0D041801493700B31024 /* CoreData.framework */; };
+		A1FB0D2D1801493700B31024 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A1FB0D2B1801493700B31024 /* InfoPlist.strings */; };
+		A1FB0D301801493700B31024 /* pocketRAITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1FB0D2F1801493700B31024 /* pocketRAITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1FB0D261801493700B31024 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1FB0CF31801493600B31024 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1FB0CFA1801493600B31024;
+			remoteInfo = pocketRAI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A1FB0CFB1801493700B31024 /* pocketRAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pocketRAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1FB0CFE1801493700B31024 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A1FB0D001801493700B31024 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A1FB0D021801493700B31024 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A1FB0D041801493700B31024 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A1FB0D081801493700B31024 /* pocketRAI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "pocketRAI-Info.plist"; sourceTree = "<group>"; };
+		A1FB0D0A1801493700B31024 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A1FB0D0C1801493700B31024 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A1FB0D0E1801493700B31024 /* pocketRAI-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "pocketRAI-Prefix.pch"; sourceTree = "<group>"; };
+		A1FB0D0F1801493700B31024 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A1FB0D101801493700B31024 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A1FB0D121801493700B31024 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A1FB0D141801493700B31024 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A1FB0D161801493700B31024 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A1FB0D191801493700B31024 /* pocketRAI.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = pocketRAI.xcdatamodel; sourceTree = "<group>"; };
+		A1FB0D201801493700B31024 /* pocketRAITests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pocketRAITests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1FB0D211801493700B31024 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		A1FB0D2A1801493700B31024 /* pocketRAITests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "pocketRAITests-Info.plist"; sourceTree = "<group>"; };
+		A1FB0D2C1801493700B31024 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A1FB0D2E1801493700B31024 /* pocketRAITests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pocketRAITests.h; sourceTree = "<group>"; };
+		A1FB0D2F1801493700B31024 /* pocketRAITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pocketRAITests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1FB0CF81801493600B31024 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1FB0CFF1801493700B31024 /* UIKit.framework in Frameworks */,
+				A1FB0D011801493700B31024 /* Foundation.framework in Frameworks */,
+				A1FB0D031801493700B31024 /* CoreGraphics.framework in Frameworks */,
+				A1FB0D051801493700B31024 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1FB0D1C1801493700B31024 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1FB0D221801493700B31024 /* SenTestingKit.framework in Frameworks */,
+				A1FB0D231801493700B31024 /* UIKit.framework in Frameworks */,
+				A1FB0D241801493700B31024 /* Foundation.framework in Frameworks */,
+				A1FB0D251801493700B31024 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1FB0CF21801493600B31024 = {
+			isa = PBXGroup;
+			children = (
+				A1FB0D061801493700B31024 /* pocketRAI */,
+				A1FB0D281801493700B31024 /* pocketRAITests */,
+				A1FB0CFD1801493700B31024 /* Frameworks */,
+				A1FB0CFC1801493700B31024 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1FB0CFC1801493700B31024 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1FB0CFB1801493700B31024 /* pocketRAI.app */,
+				A1FB0D201801493700B31024 /* pocketRAITests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1FB0CFD1801493700B31024 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1FB0CFE1801493700B31024 /* UIKit.framework */,
+				A1FB0D001801493700B31024 /* Foundation.framework */,
+				A1FB0D021801493700B31024 /* CoreGraphics.framework */,
+				A1FB0D041801493700B31024 /* CoreData.framework */,
+				A1FB0D211801493700B31024 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A1FB0D061801493700B31024 /* pocketRAI */ = {
+			isa = PBXGroup;
+			children = (
+				A1FB0D0F1801493700B31024 /* AppDelegate.h */,
+				A1FB0D101801493700B31024 /* AppDelegate.m */,
+				A1FB0D181801493700B31024 /* pocketRAI.xcdatamodeld */,
+				A1FB0D071801493700B31024 /* Supporting Files */,
+			);
+			path = pocketRAI;
+			sourceTree = "<group>";
+		};
+		A1FB0D071801493700B31024 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1FB0D081801493700B31024 /* pocketRAI-Info.plist */,
+				A1FB0D091801493700B31024 /* InfoPlist.strings */,
+				A1FB0D0C1801493700B31024 /* main.m */,
+				A1FB0D0E1801493700B31024 /* pocketRAI-Prefix.pch */,
+				A1FB0D121801493700B31024 /* Default.png */,
+				A1FB0D141801493700B31024 /* Default@2x.png */,
+				A1FB0D161801493700B31024 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A1FB0D281801493700B31024 /* pocketRAITests */ = {
+			isa = PBXGroup;
+			children = (
+				A1FB0D2E1801493700B31024 /* pocketRAITests.h */,
+				A1FB0D2F1801493700B31024 /* pocketRAITests.m */,
+				A1FB0D291801493700B31024 /* Supporting Files */,
+			);
+			path = pocketRAITests;
+			sourceTree = "<group>";
+		};
+		A1FB0D291801493700B31024 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1FB0D2A1801493700B31024 /* pocketRAITests-Info.plist */,
+				A1FB0D2B1801493700B31024 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1FB0CFA1801493600B31024 /* pocketRAI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1FB0D331801493700B31024 /* Build configuration list for PBXNativeTarget "pocketRAI" */;
+			buildPhases = (
+				A1FB0CF71801493600B31024 /* Sources */,
+				A1FB0CF81801493600B31024 /* Frameworks */,
+				A1FB0CF91801493600B31024 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pocketRAI;
+			productName = pocketRAI;
+			productReference = A1FB0CFB1801493700B31024 /* pocketRAI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1FB0D1F1801493700B31024 /* pocketRAITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1FB0D361801493700B31024 /* Build configuration list for PBXNativeTarget "pocketRAITests" */;
+			buildPhases = (
+				A1FB0D1B1801493700B31024 /* Sources */,
+				A1FB0D1C1801493700B31024 /* Frameworks */,
+				A1FB0D1D1801493700B31024 /* Resources */,
+				A1FB0D1E1801493700B31024 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1FB0D271801493700B31024 /* PBXTargetDependency */,
+			);
+			name = pocketRAITests;
+			productName = pocketRAITests;
+			productReference = A1FB0D201801493700B31024 /* pocketRAITests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1FB0CF31801493600B31024 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Andy;
+			};
+			buildConfigurationList = A1FB0CF61801493600B31024 /* Build configuration list for PBXProject "pocketRAI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A1FB0CF21801493600B31024;
+			productRefGroup = A1FB0CFC1801493700B31024 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1FB0CFA1801493600B31024 /* pocketRAI */,
+				A1FB0D1F1801493700B31024 /* pocketRAITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1FB0CF91801493600B31024 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1FB0D0B1801493700B31024 /* InfoPlist.strings in Resources */,
+				A1FB0D131801493700B31024 /* Default.png in Resources */,
+				A1FB0D151801493700B31024 /* Default@2x.png in Resources */,
+				A1FB0D171801493700B31024 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1FB0D1D1801493700B31024 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1FB0D2D1801493700B31024 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A1FB0D1E1801493700B31024 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1FB0CF71801493600B31024 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1FB0D0D1801493700B31024 /* main.m in Sources */,
+				A1FB0D111801493700B31024 /* AppDelegate.m in Sources */,
+				A1FB0D1A1801493700B31024 /* pocketRAI.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1FB0D1B1801493700B31024 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1FB0D301801493700B31024 /* pocketRAITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1FB0D271801493700B31024 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1FB0CFA1801493600B31024 /* pocketRAI */;
+			targetProxy = A1FB0D261801493700B31024 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A1FB0D091801493700B31024 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1FB0D0A1801493700B31024 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A1FB0D2B1801493700B31024 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1FB0D2C1801493700B31024 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A1FB0D311801493700B31024 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A1FB0D321801493700B31024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1FB0D341801493700B31024 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "pocketRAI/pocketRAI-Prefix.pch";
+				INFOPLIST_FILE = "pocketRAI/pocketRAI-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A1FB0D351801493700B31024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "pocketRAI/pocketRAI-Prefix.pch";
+				INFOPLIST_FILE = "pocketRAI/pocketRAI-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A1FB0D371801493700B31024 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/pocketRAI.app/pocketRAI";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "pocketRAI/pocketRAI-Prefix.pch";
+				INFOPLIST_FILE = "pocketRAITests/pocketRAITests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		A1FB0D381801493700B31024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/pocketRAI.app/pocketRAI";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "pocketRAI/pocketRAI-Prefix.pch";
+				INFOPLIST_FILE = "pocketRAITests/pocketRAITests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1FB0CF61801493600B31024 /* Build configuration list for PBXProject "pocketRAI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1FB0D311801493700B31024 /* Debug */,
+				A1FB0D321801493700B31024 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1FB0D331801493700B31024 /* Build configuration list for PBXNativeTarget "pocketRAI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1FB0D341801493700B31024 /* Debug */,
+				A1FB0D351801493700B31024 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A1FB0D361801493700B31024 /* Build configuration list for PBXNativeTarget "pocketRAITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1FB0D371801493700B31024 /* Debug */,
+				A1FB0D381801493700B31024 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A1FB0D181801493700B31024 /* pocketRAI.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A1FB0D191801493700B31024 /* pocketRAI.xcdatamodel */,
+			);
+			currentVersion = A1FB0D191801493700B31024 /* pocketRAI.xcdatamodel */;
+			path = pocketRAI.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A1FB0CF31801493600B31024 /* Project object */;
+}
